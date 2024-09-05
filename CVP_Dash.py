@@ -7,7 +7,7 @@ from Revenue_App.RevenueModel2.CVP import cvp_analysis_with_full_sliding_fee, pl
 
 # Initialize Dash app
 app = dash.Dash(__name__, suppress_callback_exceptions=True)
-
+server = app.server
 
 # Function to create labeled input fields for each service
 def create_service_inputs(service):
