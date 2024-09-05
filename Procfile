@@ -1,5 +1,2 @@
-RevenueModel/
-    Revenue_App/
-        RevenueModel2/
-            CVP_Dash.py
+web: gunicorn CVP_Dash:server
 
